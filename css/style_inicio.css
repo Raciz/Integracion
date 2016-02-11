@@ -1,0 +1,36 @@
+ .contenedor { 
+ 	display: flex;
+ 	width: 460px; 
+ 	height:40px; 
+ 	color: #fff; 
+ 	font-size: 40px; 
+ 	line-height: 40px; 
+ 	
+ 	top: 0; 
+ 	right: 0; 
+ 	button: 0; 
+ 	left: 0; 
+ 	margin: auto; 
+ 	overflow: 
+ 	hidden; 
+ } 
+
+ dl { 
+ 	list-style: none; 
+ 	padding-left: 10px; 
+ 	animation: cambiar 15s infinite; 
+ 	} 
+
+ dl, p	 { 
+ 	margin: 0; 
+ } 
+
+ @keyframes cambiar { 
+ 	0%{ margin-top: 0;} 
+ 	20%{ margin-top: 0;} 
+ 	25% { margin-top: -40PX;} 
+ 	50% { margin-top: -40PX;} 
+
+
+
+ 	

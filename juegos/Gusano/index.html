@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Caracol!</title>
+        <link rel="stylesheet" href="css/style.css">
+
+             <link rel="stylesheet" href="../../css/style.css">
+
+         <!-- Bootstrap core CSS -->
+    <link href="../../bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template  BARRA DE NAVEGACION--> 
+    <!-- Material Design Bootstrap -->
+    <link href="../../bootstrap/css/mdb.min.css" rel="stylesheet">
+    
+    <link rel="stylesheet" type="text/css" href="../../css/style_registro.css">
+
+    </head>
+
+    <body style="background-color: brown;">
+
+         <!-- Navigation -->
+          <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+            <div class="container">
+              <a class="navbar-brand js-scroll-trigger" href="#page-top"><h2>Completa la serie numérica en el caracol!</h2></a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>            
+            </div>
+          </nav>
+
+          
+       <center> <img src="img/gusano.jpg"; id="worm" width="0" height="0">
+
+        <div style="position:relative;width:800px;height:700px">
+            <canvas style="border: 1px solid #000000"></canvas>
+            <input type="number" style="position:absolute;left:440px;top:228px;width:50px;" id="input1" />
+            <input type="number" style="position:absolute;left:390px;top:253px;width:50px;" id="input2" />
+            <input type="number" style="position:absolute;left:295px;top:130px;width:65px;" id="input3" />
+            <input type="number" style="position:absolute;left:331px;top:85px;width:65px;" id="input4" />
+            <input type="number" style="position:absolute;left:452px;top:43px;width:55px;" id="input5" />
+            <input type="number" style="position:absolute;left:497px;top:60px;width:55px;" id="input6" />
+            <input type="number" style="position:absolute;left:561px;top:163px;width:63px;" id="input7" />
+            <input type="number" style="position:absolute;left:552px;top:213px;width:68px;" id="input8" />
+            <input type="number" style="position:absolute;left:495px;top:292px;width:55px;" id="input9" />
+            
+            <label style="font-size: 30px;font-weight: bold; position:absolute;left:202px;top:485px;width:300px;" id="mensaje"></label>
+        </div>
+        </center>
+
+        <input type="button" style="width: 100px; height: 60px; font-size:30px;" class="bg-dark text-white animated pulse infinite" id="revisar" value="Revisar" />
+        
+        
+
+        <form action="../../perfil.php">
+        <button style="width: 100px; height: 45px; font-size:12px;" type="submit" class="btn btn-red animated pulse" name="regresar">Regresar!</button>
+        </form>
+
+        <script src="js/main.js"></script>
+    </body>
+</html>
+
+
+
+
+
+
